@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>532195209657-fu8b08is92fdicbkok6rq8jg253ldmv1.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.532195209657-fu8b08is92fdicbkok6rq8jg253ldmv1</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCD5u_NytveUgO8hiHt0OP73XZqf_tuNNU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>532195209657</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>vidshare.mskp.mrkcreations.com.vidshareApp</string>
+	<key>PROJECT_ID</key>
+	<string>sharemedia-820ca</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sharemedia-820ca.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:532195209657:ios:c9974f82a48c150c950668</string>
+	<key>DATABASE_URL</key>
+	<string>https://sharemedia-820ca-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

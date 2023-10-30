@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "396733808851",
+    "project_id": "v-share-by-mkr",
+    "storage_bucket": "v-share-by-mkr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396733808851:android:b23bf31451c9e3204d9426",
+        "android_client_info": {
+          "package_name": "vshare.mkrcreation.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCy_FZRxznXempCd2yMpDvQdzyRPbbhJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
