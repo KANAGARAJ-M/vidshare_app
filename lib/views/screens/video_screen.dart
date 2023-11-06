@@ -267,7 +267,7 @@ class VideoScreen extends StatelessWidget {
   void shareVideo(String videoUrl) {
     // You can use the Share plugin or other methods to share the video URL.
     // Here's an example using the Share plugin:
-    Share.share('Get this app on play store');
+    Share.share('Get this app on play store \n https://play.google.com/store/apps/details?id=vshare.mkrcreation.com');
   }
 
   buildProfile(String profilePhoto) {

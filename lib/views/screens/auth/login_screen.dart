@@ -18,7 +18,7 @@ class LoginScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'Vid Share',
+              'V Share',
               style: TextStyle(
                 fontSize: 35,
                 color: buttonColor,
@@ -26,7 +26,7 @@ class LoginScreen extends StatelessWidget {
               ),
             ),
             const Text(
-              'Login',
+              'Login *',
               style: TextStyle(
                 fontSize: 25,
                 fontWeight: FontWeight.w700,
@@ -40,7 +40,7 @@ class LoginScreen extends StatelessWidget {
               margin: const EdgeInsets.symmetric(horizontal: 20),
               child: TextInputField(
                 controller: _emailController,
-                labelText: 'Email',
+                labelText: 'Email *',
                 icon: Icons.email,
               ),
             ),

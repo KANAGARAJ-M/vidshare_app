@@ -106,7 +106,7 @@ class AuthController extends GetxController {
       }
     } catch (e) {
       Get.snackbar(
-        'Error Loggin gin',
+        'Please provide a valid information',
         e.toString(),
       );
     }

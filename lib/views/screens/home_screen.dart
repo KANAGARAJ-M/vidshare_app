@@ -28,24 +28,24 @@ class _HomeScreenState extends State<HomeScreen> {
         currentIndex: pageIdx,
         items: const [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home, size: 30),
-            label: 'Home',
+            icon: Icon(Icons.home, size: 20),
+            label: '',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.integration_instructions, size: 30),
-            label: 'Upload rules',
+            icon: Icon(Icons.integration_instructions, size: 20),
+            label: '',
           ),
           BottomNavigationBarItem(
             icon: CustomIcon(),
             label: '',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.message, size: 30),
-            label: 'Messages',
+            icon: Icon(Icons.notifications, size: 20),
+            label: '',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.person, size: 30),
-            label: 'Profile',
+            icon: Icon(Icons.person, size: 20),
+            label: '',
           ),
         ],
       ),

@@ -38,17 +38,39 @@ class _ProfileScreenState extends State<ProfileScreen> {
           return Scaffold(
             appBar: AppBar(
               backgroundColor: Colors.black12,
-              leading: const Icon(
-                Icons.person_add_alt_1_outlined,
+              // leading: const Icon(
+              //   Icons.logout,
+
+              // ),
+              leading: GestureDetector(
+                child: IconButton(
+                    onPressed: () {
+                      print('Enabeling Soon');
+                      showDialog(
+                        context: context,
+                        builder: (context) => AlertDialog(
+                          backgroundColor: Colors.red,
+                          title: Text('Under Maintenance'),
+                          content: Text('Not Available until 01/02/2024'),
+                          actions: [
+                            ElevatedButton(
+                              // style: ButtonStyle(backgroundColor: Colors.black),
+                                onPressed: () => Navigator.of(context).pop(),
+                                child: Text('Okey !')),
+                          ],
+                        ),
+                      );
+                    },
+                    icon: Icon(Icons.logout)),
               ),
               actions: const [
-                Icon(Icons.more_horiz),
+                // Icon(Icons.more_horiz),
               ],
               title: Text(
                 controller.user['name'],
                 style: const TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: Colors.white,
+                  color: Colors.red,
                 ),
               ),
             ),

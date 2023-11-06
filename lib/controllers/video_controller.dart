@@ -5,6 +5,8 @@ import 'package:vidshare_app/models/video.dart';
 
 class VideoController extends GetxController {
   final Rx<List<Video>> _videoList = Rx<List<Video>>([]);
+  final currentTime = DateTime.now();
+  final timeRange = Duration(hours: 24);
 
   List<Video> get videoList => _videoList.value;
 
@@ -13,7 +15,10 @@ class VideoController extends GetxController {
     super.onInit();
     _videoList.bindStream(firestore
         .collection('videos')
-        // .orderBy('timestamp', descending: true)
+        // .where('datePublished',
+        //     isGreaterThanOrEqualTo: currentTime.subtract(timeRange))
+        // .orderBy('datePublished', descending: true)
+        
         .snapshots()
         .map((QuerySnapshot query) {
       List<Video> retVal = [];

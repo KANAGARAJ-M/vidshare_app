@@ -8,6 +8,7 @@ class MainNotification extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.black,
         title: Text(
           'Notification',
           style: TextStyle(color: Colors.red),
